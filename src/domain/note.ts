@@ -3,7 +3,6 @@ export class Note {
     public id: string,
     public title: string,
     public content: string,
-    public lastEditTime: number,
-    public updatedAt: Date
+    public lastEditTime: number
   ) {}
 }
